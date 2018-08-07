@@ -1,0 +1,28 @@
+.align-items ul {
+    height: 50px;
+    border: 1px solid #000;
+}
+.align-items ul li {
+    margin-bottom: 0;
+}
+
+.align-items ul:first-of-type {
+    align-items: flex-start;
+}
+
+.align-items ul:nth-of-type(2) {
+    align-items: flex-end;
+}
+
+
+.align-items ul:nth-of-type(3) {
+    align-items: center;
+}
+
+.align-items ul:nth-of-type(4) {
+    align-items: stretch;
+}
+
+.align-items ul:last-of-type {
+    align-items: baseline;
+}

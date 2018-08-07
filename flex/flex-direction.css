@@ -1,0 +1,18 @@
+/* row is the default value */
+.flex-direction ul:first-of-type {
+    flex-direction: row;
+}
+
+.flex-direction ul:nth-of-type(2) {
+    flex-direction: row-reverse;
+}
+
+.flex-direction ul:nth-of-type(3) {
+    flex-direction: column;
+}
+
+
+.flex-direction ul:last-of-type {
+    flex-direction: column-reverse;
+}
+

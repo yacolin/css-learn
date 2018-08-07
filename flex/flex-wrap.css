@@ -1,0 +1,20 @@
+.flex-wrap ul {
+    width: 200px;
+}
+
+/* the value is nowrap (default value) */
+.flex-wrap ul:first-of-type {
+    flex-wrap: nowrap;
+}
+
+
+/* the value is wrap */
+.flex-wrap ul:nth-of-type(2) {
+    flex-wrap: wrap;
+}
+
+
+/* the value is wrap-reverse */
+.flex-wrap ul:last-of-type {
+    flex-wrap: wrap-reverse;
+}

@@ -1,0 +1,50 @@
+.container {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.container h1 {
+    font-size: 24px;
+    color: #555;
+}
+
+.container ul {
+    display: flex;
+    width: 300px;
+    padding: 0;
+    list-style: none;
+}
+
+.container ul li {
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: lightcoral;
+}
+
+.container ul:first-of-type li {
+    background-color: aqua;
+}
+
+.container ul:nth-of-type(2) li {
+    background-color: lightcoral;
+}
+
+.container ul:nth-of-type(3) li {
+    background-color: lawngreen;
+}
+
+.container ul:nth-of-type(4) li {
+    background-color: royalblue;
+}
+
+.container ul:nth-of-type(5) li {
+    background-color: blueviolet;
+}
+
+.container ul:last-of-type(6) li {
+    background-color: greenyellow;
+}

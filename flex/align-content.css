@@ -1,0 +1,39 @@
+.align-content {
+
+}
+
+.align-content ul {
+	
+	height: 80px;
+	flex-wrap: wrap;
+
+	border:  1px solid #000;
+}
+
+.align-content ul li {
+	width: 50px;
+}
+
+.align-content ul:first-of-type {
+	align-content: flex-start;
+}
+
+.align-content ul:nth-of-type(2) {
+	align-content: flex-end;
+}
+
+.align-content ul:nth-of-type(3) {
+	align-content: center;
+}
+
+.align-content ul:nth-of-type(4) {
+	align-content: stretch;
+}
+
+.align-content ul:nth-of-type(5) {
+	align-content: space-between;
+}
+
+.align-content ul:last-of-type {
+	align-content: space-around;
+}

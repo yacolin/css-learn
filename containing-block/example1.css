@@ -1,0 +1,21 @@
+body {
+    background-color: beige;
+}
+section {
+    display: block;
+    width: 400px;
+    height: 160px;
+    background-color: lightgray;
+}
+
+/* height top bottom中的百分值，是通过包含快的height计算的。
+ * 如果包含块的height值会根据它的内容变化，而包含块的position属性被赋予relative或static，那么这些计算值为0
+ * width left right padding margin 由包含块的width属性来计算的
+**/
+p {
+    width: 50%;     /* 400px * .5 = 200px */
+    height: 25%;    /* 160px * .25 = 40px */
+    margin: 5%;     /* 400px * .05 = 20px */
+    padding: 5%;    /* 400px * .05 = 20px */
+    background-color: cyan;
+}

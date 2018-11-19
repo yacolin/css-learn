@@ -1,0 +1,22 @@
+body {
+  background: beige;
+}
+
+section {
+  transform: rotate(0deg);
+  width: 400px;
+  height: 160px;
+  background: lightgray;
+}
+
+/* position为absolute，所以它的包含块是section，也就是距离它最近的一个transform值不为none的父元素 */
+p {
+  position: absolute;
+  left: 80px;
+  top: 30px;
+  width: 50%; /* == 200px */
+  height: 25%; /* == 40px */
+  margin: 5%; /* == 20px */
+  padding: 5%; /* == 20px */
+  background: cyan;
+}

@@ -1,0 +1,12 @@
+body {
+    background-color: beige;
+}
+section {
+    display: inline;
+    background-color: lightgray;
+}
+p {
+    width: 50%;             /* == half the body's width */
+    height: 200px;          /*  此时设置百分比无效 */
+    background-color: cyan;
+}

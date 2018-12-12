@@ -1,0 +1,32 @@
+#container {
+    overflow: hidden;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header header" 
+        "main main . sidebar"
+        "footer footer footer footer";
+    grid-gap: 10px 15px;
+    border-radius: 50px;
+    /* border: 10px solid #000; */
+    
+}
+.item-a {
+    grid-area: header;
+    background-color: orange;
+}
+.item-b {
+    grid-area: main;
+    background-color: lightblue;
+}
+.item-c {
+    grid-area: sidebar;
+    background-color: salmon;
+}
+.item-d {
+    grid-area: footer;
+    background-color: lightgreen;
+}

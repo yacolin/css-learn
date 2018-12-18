@@ -1,0 +1,39 @@
+#parent {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    border: 1px solid #000;
+}
+.child {
+    width: 150px;
+    height: 20px;
+    background-color: #ccc;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.one {
+    order: 0;
+    flex-shrink: 5;
+    align-self: flex-end;
+}
+.two {
+    order: -1;
+    align-self: center;
+}
+.three {
+    order: 10;
+    flex-grow: 1;
+    align-self: baseline;
+}
+.four {
+    order: 100;
+    flex-grow: 2;
+    align-self: center;
+}
+.five {
+    order: 99;
+    flex-grow: 1.5;
+    align-self: flex-start;
+}

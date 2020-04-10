@@ -25,3 +25,17 @@
     background-color: #cd0000;
     margin: auto;
 }
+
+.father2 {
+	position: relative;
+	width: 300px; height: 150px;
+	background-color: blueviolet;
+}
+
+.son2 {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	width: 200px; height: 100px;
+	margin: auto;
+	background-color: brown;
+}
